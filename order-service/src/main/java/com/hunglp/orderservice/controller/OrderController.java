@@ -23,4 +23,10 @@ public class OrderController {
         orderService.placeOrder(orderRequest);
         return "Order Placed Successfully";
     }
+
+    @GetMapping
+    @ResponseStatus(HttpStatus.OK)
+    public String getListOrder() {
+        return "ok";
+    }
 }
