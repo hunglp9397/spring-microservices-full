@@ -12,7 +12,7 @@
  docker run -p 8181:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:18.0.0 start-dev
 ```
 - Truy cập url : localhost:8181
-- Đăng nhập keycloack
+- Đăng nhập keycloack : admin/admin
 ![1](img_guide/1.png)
 - Tạo realm:
 ![2](img_guide/2.png)
