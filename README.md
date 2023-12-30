@@ -42,3 +42,8 @@
           ![2](img_guide/11.png)
         +  Khi authen token, tạo order thành công:
            ![2](img_guide/12.png)
+
+### 6. Part-6 : Circuit-breaker (bỏ qua)
+### 7. Part-7 : Distributed-tracing (bỏ qua)
+### 8. Part-8 : Event driven Kafka
+- Tạo file docker-compose.yaml để run instance kafka : `docker compose up -d .`
