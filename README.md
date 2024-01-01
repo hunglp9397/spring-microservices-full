@@ -45,5 +45,10 @@
 
 ### 6. Part-6 : Circuit-breaker (bỏ qua)
 ### 7. Part-7 : Distributed-tracing (bỏ qua)
+- Chỉ cần chạy container:
+`docker run -d -p 9411:9411 openzipkin/zipkin`
 ### 8. Part-8 : Event driven Kafka
-- Tạo file docker-compose.yaml để run instance kafka : `docker compose up -d .`
+- Tạo file docker-compose.yaml để run instance kafka : `docker compose up -d `
+### 9. Part-9 : Dockerize
+- api-gateway-images : `docker build -t apigateway-dockerfile .`
+- 
